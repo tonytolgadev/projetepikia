@@ -102,7 +102,7 @@ header {
     border-bottom: 1px solid #ccc;
     transition: left 500ms;
 }
-
+/* 
 .search-wrapper {
     display: flex;
     align-items: center;
@@ -113,9 +113,9 @@ header {
     outline: 0;
     padding: 1rem;
     height: 38px;
-}
+} */
 
-.social-icons {
+/* .social-icons {
     display: flex;
     align-items: center;
 }
@@ -132,7 +132,7 @@ header {
     background-repeat: no-repeat;
     background-image: url(img/1.jpg);
     border-radius: 50%;
-}
+} */
 
 main {
     margin-top: 60px;
@@ -141,12 +141,12 @@ main {
     padding: 1rem 3rem;
 }
 
-.dash-title {
+/* .dash-title {
     color: var(--color-dark);
     margin-bottom: 1rem;
-}
+} */
 
-.dash-cards {
+/* .dash-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 3rem;
@@ -188,12 +188,12 @@ main {
 
 .card-footer a {
     color: var(--main-color);
-}
-
+} */
+/* 
 .recent {
     margin-top: 3rem;
     margin-bottom: 3rem;
-}
+} */
 
 .activity-grid {
     display: grid;
@@ -259,7 +259,7 @@ tbody tr:nth-child(even) {
     display: flex;
     align-items: center;
 }
-
+/* 
 .img-1,
 .img-2,
 .img-3 {
@@ -332,7 +332,7 @@ tbody tr:nth-child(even) {
     background-repeat: no-repeat;
     background-image: url(img/3.jpeg);
     margin-right: .7rem;
-}
+} */
 
 * {
 
@@ -459,3 +459,42 @@ tbody tr:nth-child(even) {
     background-color: rgba(183, 26, 188, 0.5);
     box-shadow: none;
 }
+
+
+
+/* DROPDOWN */
+
+.dropbtn {
+    background-color: rgb(212, 133, 15);
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(212, 133, 15);}

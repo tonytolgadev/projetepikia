@@ -77,12 +77,13 @@
             <div class="col-4"></div>
             <div class="col-4">
                 <table class="table table-striped">
-                    <thead>
+                    
+                    <!-- <thead>
                         <tr>
                             <th>Désignation des éléments</th>
                             <th>Quantité</th>
                         </tr>
-                    </thead>
+                    </thead> -->
                     <tbody>
                         <tr v-for="(item, index) in items" class="element-line" @click="modify(index)">
                             <td>
@@ -100,11 +101,11 @@
                 </table>
             </div>
         </div>
-
+        <hr>
         <div class="centered">
-            <button type="button" class="btn btn-primary btn-ajouter" @click="add">Ajouter</button>
+            <button type="button" class="btn btn-primary btn-ajouter" @click="add">Ajouter une facture</button>
         </div>
-
+        <hr>
         <br><br>
 
         <!-- <div class="form-group centered etudiant" :class="{selected: student}">

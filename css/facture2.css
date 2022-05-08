@@ -72,6 +72,7 @@
     justify-content: center;
 }
 
+/* a suvire 1 */
 #sidebar-toggle:checked~.main-content {
     margin-left: 60px;
 }
@@ -81,11 +82,17 @@
     width: calc(100% - 60px);
 }
 
+/* a suivre 2 */
 .main-content {
     position: relative;
     margin-left: 240px;
     transition: margin-left 500ms;
 }
+
+
+
+
+
 
 header {
     position: fixed;
@@ -451,7 +458,7 @@ body {
 }
 
 
-/* label {
+label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
 }
@@ -459,11 +466,11 @@ body {
 input,
 label {
     margin: .4rem 0;
-} */
+}
 
 
 .client {
-    text-align: right;
+    text-align: left;
 }
 
 .client h2 {
@@ -536,5 +543,5 @@ label {
 
 
 #app {
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }

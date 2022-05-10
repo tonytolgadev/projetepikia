@@ -86,6 +86,7 @@
 
 
 
+
 /* Common styles */
 
 .pricing {
@@ -124,6 +125,34 @@
 
 .pricing__action:focus {
     outline: none;
+}
+
+.button{
+    background-color: #E06060;
+    border: none;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    border-radius: 2rem;
+}
+
+.button:hover {
+    background-color: #BD3C3C;
+}
+
+.button strong {
+    font-size: 1,5rem;
+}
+
+.grid{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 /* Individual styles */
@@ -181,3 +210,6 @@
 .pricing--sonam .pricing__action:focus {
     background: #BD3C3C;
 }
+
+
+

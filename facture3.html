@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="facture2.html">
+                    <a href="facture3.html">
                         <span class="ti-agenda"></span>
                         <span>Facture</span>
                     </a>
@@ -59,7 +59,7 @@
     <div class="main-content">
       <div class="client">
 
-                <h2>Client</h2>
+                <!-- <h2>Client</h2> -->
                 <input type="text" nom="nom" placeholder="Nom"> 
                 <input type="text" nom="prenom" placeholder="Prénom"> <br>
                 <input type="text" nom="adresse" placeholder="N° et Rue">
@@ -110,8 +110,8 @@ var invoice = angular.module('invoice', []);
 invoice.controller('InvoiceController', function($scope){
   $scope.invoice = {
     items: [{
-      name: 'Nom',
-      description: 'Description',
+      name: '',
+      description: '',
       qty: 0,
       price: 0
     }]
